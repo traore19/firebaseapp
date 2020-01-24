@@ -1,0 +1,8 @@
+<div class="container p-4">
+  <div *ngFor=" let item of students">
+    <h1>{{item.name}}</h1>
+    <div>{{item.age}}</div>
+    <div>{{item.speciality}}</div>
+  </div>
+</div>
+<router-outlet></router-outlet>
